@@ -65,3 +65,5 @@
 ## 参考
 
 - [Modern Component Library w/ React & Storybook](https://www.youtube.com/watch?v=21iHNxVlfvw)
+
+- [how to write an open source javascript library](https://egghead.io/courses/how-to-write-an-open-source-javascript-library)

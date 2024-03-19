@@ -1,12 +1,11 @@
 {
   "name": "@fancn21th/skeleton-design-system",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "pub": "npm publish --access=public"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/themes": "2.0.3",
@@ -41,5 +40,9 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }

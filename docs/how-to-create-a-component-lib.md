@@ -25,7 +25,7 @@
   }
   ```
 
-## 发布步骤
+## 发布步骤 (手动)
 
 - 修改版本号
 
@@ -53,8 +53,14 @@
 - 发布到 npm
 
   ```bash
-  npm run pub
+  npm publish --access=public
   ```
+
+  - beta 版本
+
+    ```bash
+    npm publish --tag beta
+    ```
 
 ## 参考
 

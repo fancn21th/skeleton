@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@fancn21th/skeleton-design-system": "workspace:*"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^1.2.23",

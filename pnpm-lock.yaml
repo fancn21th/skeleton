@@ -69,6 +69,9 @@ importers:
 
   storybook:
     dependencies:
+      '@fancn21th/skeleton-design-system':
+        specifier: workspace:*
+        version: link:../packages/skeleton-design-system
       react:
         specifier: ^18.2.0
         version: 18.2.0

@@ -1,5 +1,6 @@
 {
   "name": "root",
+  "private": true,
   "dependencies": {},
   "scripts": {
     "dev": "lerna run dev --parallel"

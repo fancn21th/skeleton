@@ -7,7 +7,7 @@ interface TestProps {
 
 export const Test = ({ children, ...props }: TestProps) => {
   return (
-    <div className={styles.div} {...props}>
+    <div className={styles.container} {...props}>
       {children}
     </div>
   );

@@ -22,4 +22,11 @@ export const Another: Story = {
   args: {
     children: "Test2",
   },
+  // 覆盖 argTypes
+  argTypes: {
+    children: {
+      control: "inline-radio",
+      options: ["Test2", "Test3"],
+    },
+  },
 };

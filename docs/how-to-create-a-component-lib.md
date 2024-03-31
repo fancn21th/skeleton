@@ -10,9 +10,15 @@
 
 - 打包配置
 
-  配置 rollup 如何打包我们的组件库
+  配置 rollup , 定义 如何打包 组件库
 
   [vite.config.ts](/packages/skeleton-design-system/vite.config.ts)
+
+- 两个系统
+
+  在 rollup 配置中 你需要注意 对两种模块系统的支持
+
+  [Understanding CommonJS vs. ES Modules in JavaScript](https://www.syncfusion.com/blogs/post/js-commonjs-vs-es-modules)
 
 - 入口文件
 
@@ -24,6 +30,34 @@
     "main": "./dist/skeleton-design-system.cjs"
   }
   ```
+
+- 引入
+
+  消费方如何引入组件库
+
+  ```json
+  "exports": {
+    ".": {
+      "import": "./dist/skeleton-design-system.js",
+      "require": "./dist/skeleton-design-system.cjs",
+    }
+  }
+  ```
+
+- 名字
+
+  - 库名
+  - 打包后 文件名
+
+- TS
+
+  vite-plugin-dts
+
+- 排除依赖
+
+  如果 消费方 和 组件库 有依赖重叠, 需要从 组件库 中排除
+
+- 样式 依然支持 code splitting
 
 ## 发布步骤 (手动)
 

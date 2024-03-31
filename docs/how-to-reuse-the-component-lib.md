@@ -8,14 +8,5 @@
 
 需改更改的地方:
 
-- `package.json` 中的 `name` 字段
-- `package.json` 中的 `version` 字段
-- `package.json` 中的 `dependencies` 字段
-- `vite.config.ts` 中的 `build` 字段
-- `vite.config.ts` 中的 `resolve.alias` 字段
-- `vite.config.ts` 中的 `resolve.mainFields` 字段
-- `vite.config.ts` 中的 `resolve.extensions` 字段
-- `vite.config.ts` 中的 `resolve.modules` 字段
-- `vite.config.ts` 中的 `resolve.symlinks` 字段
-- `vite.config.ts` 中的 `resolve.dedupe` 字段
-- `vite.config.ts` 中的 `build` 字段
+- package.json
+  - name

@@ -1,8 +1,8 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Test } from "@fancn21th/skeleton-design-system";
+import { Test } from "@fancn21th/molecules-organisms-muscle";
 
 const meta = {
-  title: "Skeleton/Test",
+  title: "Muscle/Test",
   component: Test,
 } satisfies Meta<typeof Test>;
 

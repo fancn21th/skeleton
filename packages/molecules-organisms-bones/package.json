@@ -1,6 +1,6 @@
 {
-  "name": "@fancn21th/skeleton-design-system",
-  "version": "0.0.3",
+  "name": "@fancn21th/molecules-organisms-bones",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -28,13 +28,13 @@
     "vite-plugin-lib-inject-css": "2.0.0"
   },
   "type": "module",
-  "module": "./dist/skeleton-design-system.js",
-  "main": "./dist/skeleton-design-system.cjs",
+  "module": "./dist/molecules-organisms-bones.js",
+  "main": "./dist/molecules-organisms-bones.cjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/skeleton-design-system.js",
-      "require": "./dist/skeleton-design-system.cjs",
+      "import": "./dist/molecules-organisms-bones.js",
+      "require": "./dist/molecules-organisms-bones.cjs",
       "types": "./dist/index.d.ts"
     }
   },

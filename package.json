@@ -4,7 +4,8 @@
   "dependencies": {},
   "scripts": {
     "build": "lerna run build --parallel",
-    "sb": "lerna run storybook --scope=@fancn21th/storybook"
+    "sb": "lerna run storybook --scope=@fancn21th/storybook",
+    "deploy": "lerna run deploy --scope=@fancn21th/storybook"
   },
   "devDependencies": {
     "lerna": "^7.4.2"

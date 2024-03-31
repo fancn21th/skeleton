@@ -1,14 +1,14 @@
-import React from "react";
-import styles from "./Test.module.css";
+import { Flex, Skeleton, Switch } from "@radix-ui/themes";
 
-interface TestProps {
-  children: React.ReactNode;
-}
-
-export const Test = ({ children, ...props }: TestProps) => {
+export const Test = () => {
   return (
-    <div className={styles.container} {...props}>
-      {children}
-    </div>
+    <Flex gap="4">
+      <Skeleton loading={true}>
+        <Switch defaultChecked />
+      </Skeleton>
+      <Skeleton loading={false}>
+        <Switch defaultChecked />
+      </Skeleton>
+    </Flex>
   );
 };

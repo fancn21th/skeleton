@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {},
   "scripts": {
-    "dev": "lerna run dev --parallel"
+    "dev": "lerna run dev --parallel",
+    "sb": "lerna run storybook --scope=@fancn21th/storybook"
   },
   "devDependencies": {
     "lerna": "^7.4.2"

@@ -22,7 +22,8 @@ of development.
   [getting-started](https://lerna.js.org/docs/getting-started)
 
   ```bash
-  npx lerna init --dryRun
+  npx lerna init --dryRun  # 检查是否可以创建
+  npx lerna init --packages="packages/*"  # 指定 packages 目录`
   ```
 
 ## 基于 pnpm 的 配置
